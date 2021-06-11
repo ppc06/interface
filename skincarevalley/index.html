@@ -1,0 +1,92 @@
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skincare Valley | Malaysian Skincare Products</title>
+        <link rel="stylesheet" href="https://use.typekit.net/ryu6vpo.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+        <div class="container">
+                <div class="navbar">
+                        <div class="logo">
+                           <a href="index.html"><img src="images/skincarevalley.png" alt="logo"></a>
+                        </div>
+                        <nav>
+                                <ul id="MenuItems">
+                                   <li><a href="products.html">SHOP ALL</a></li>
+                                   <li><a href="">BRANDS</a></li>
+                                   <li><a href="">SKIN TYPES</a></li>
+                                </ul>
+                        </nav>
+                        <a href="account.html"><img src="images/user3.svg" class="user-icon"></a>
+                        <a href="cart.html"><img src="images/bag.png" class="cart-icon"></a>
+                        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+                </div>
+
+                <div class="row">
+                        <div class="col-2">
+                           <p id="tagline">Your One-Stop<br>Malaysian Skincare Products</p>
+                           <a href="products.html" class="btn">SHOP ALL</a>
+                        </div>
+                        <div class="col-2">
+                           <img src="images/zarzou.jpg" width=100%>
+                        </div>
+                </div>  
+        </div>
+        </div>
+
+<!--- featured brands --->
+        <div class="featured">
+                <div class="bottom-container">
+                <div class="row">
+                        <div class="col-3">
+                           <img src="images/coalface_f.jpg" alt="featured kayman">
+                        </div>
+                        <div class="col-3">
+                           <img src="images/zarzou_f.jpg" alt="featured zarzou">
+                        </div>
+                        <div class="col-3">
+                           <img src="images/jelitakl_f.jpg" alt="featured jelitakl">
+                        </div>
+                </div>
+                </div>
+        </div>
+
+<!--- featured brands --->
+
+        <div class="footer">
+                <div class="container">
+                        <div class="row">
+                                <div class="footer-col-1">
+                                        
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+<!---javascript for toggle menu--->
+<script>
+       var MenuItems = document.getElementById("MenuItems");
+       
+       MenuItems.style.maxHeight = "0px";
+
+       function menuToggle() {
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                        MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                        MenuItems.style.maxHeight = "0px";
+                }
+
+       }
+</script>
+
+</body>
+
+</html>

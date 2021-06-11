@@ -1,0 +1,119 @@
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kayman Beauty - Coalface Cleanser</title>
+        <link rel="stylesheet" href="https://use.typekit.net/ryu6vpo.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+        <div class="container">
+                <div class="navbar">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/skincarevalley.png" alt="logo"></a>
+                        </div>
+                        <nav>
+                                <ul id="MenuItems">
+                                   <li><a href="products.html">SHOP ALL</a></li>
+                                   <li><a href="">BRANDS</a></li>
+                                   <li><a href="">SKIN TYPES</a></li>
+                                </ul>
+                        </nav>
+                        <a href="account.html"><img src="images/user3.svg" class="user-icon"></a>
+                        <a href="cart.html"><img src="images/bag.png" class="cart-icon"></a>
+                        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+                </div>
+
+        </div>
+        </div>
+
+</div>
+
+<!--------cart-------->
+<p class="title">CART</p>
+<div class="bottom-container cart-page">
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/product.png">
+                    <div>
+                        <p>KAYMAN</p>
+                        <p>Coalface Cleanser</p>
+                        <small>Price: RM49.00</small><br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>RM49.00</td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/product.png">
+                    <div>
+                        <p>KAYMAN</p>
+                        <p>Coalface Cleanser</p>
+                        <small>Price: RM49.00</small> <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>RM49.00</td>
+        </tr>
+    </table>
+
+    <div class="total">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>RM 98.00</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>RM 8.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>RM 106.00</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+
+
+<!---javascript for toggle menu--->
+<script>
+       var MenuItems = document.getElementById("MenuItems");
+       
+       MenuItems.style.maxHeight = "0px";
+
+       function menuToggle() {
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                        MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                        MenuItems.style.maxHeight = "0px";
+                }
+
+       }
+</script>
+
+</body>
+
+</html>

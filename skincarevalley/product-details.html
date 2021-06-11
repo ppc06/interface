@@ -1,0 +1,122 @@
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kayman Beauty - Coalface Cleanser</title>
+        <link rel="stylesheet" href="https://use.typekit.net/ryu6vpo.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+        <div class="container">
+                <div class="navbar">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/skincarevalley.png" alt="logo"></a>
+                        </div>
+                        <nav>
+                                <ul id="MenuItems">
+                                   <li><a href="products.html">SHOP ALL</a></li>
+                                   <li><a href="index.html">BRANDS</a></li>
+                                   <li><a href="">SKIN TYPES</a></li>
+                                </ul>
+                        </nav>
+                        <div>
+                        <a href="account.html"><img src="images/user3.svg" class="user-icon"></a>
+                        <a href="cart.html"><img src="images/bag.png" class="cart-icon"></a>
+                        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+                        </div>
+                    </div>
+
+        </div>
+        </div>
+
+<!------product details------->
+        <div class="bottom-container product-details">
+            <div class="row">
+                <div class="col-2 left-detail">
+                    <img src="images/product.png" width="75%">
+
+                </div>
+                <div class="col-2 right-detail">
+                    <p>All Products / Coalface Cleanser</p>
+                    <h2>KAYMAN BEAUTY</h2>
+                    <h1>Coalface Cleanser</h1>
+                    <h4>RM49.00</h4>
+
+                    <input type="number" value="1" min="1">
+                    
+                    <a href="cart.html" class="btn short">ADD TO CART</a>
+
+                    <p class="sub-title">Product Details</p>
+                    <p>CoalFace Cleanser is a low-pH, light gel cleanser formulated 
+                        with Kayman Beauty signature ingredients, charcoal, and honey. 
+                        Moreover, with the additions of aloe vera and green tea, this 
+                        cleanser offers efficient cleansing power with soothing properties, 
+                        to ensure the skin’s natural barrier is cared for.</p>
+                    <br>
+                    <p class="sub-title">Ingredients</p>
+                    <p>Water, Aloe Vera Extract,  Cocoamidopropyl Betaine, Glycerine. 
+                        Polysorbate 20, Xanthan Gum, Honey Extract, Green Tea Extract, 
+                        Activated Charcoal, Phenoxyethanol, Black Liquid (CI7749), 
+                        Gold (Mica).</p>
+                </div>
+            </div>
+        </div>
+
+<div class="bottom-container">
+    <p class="title">OTHER PRODUCTS</p> 
+       
+
+    <div class="row">
+            <div class="col-4">
+                <img src="images/product.png">
+                <h4>Kayman Beauty</h4>
+                <p>Coalface Cleanser</p>
+                <p>RM49.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product.png">
+                <h4>Kayman Beauty</h4>
+                <p>Coalface Cleanser</p>
+                <p>RM49.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product.png">
+                <h4>Kayman Beauty</h4>
+                <p>Coalface Cleanser</p>
+                <p>RM49.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product.png">
+                <h4>Kayman Beauty</h4>
+                <p>Coalface Cleanser</p>
+                <p>RM49.00</p>
+            </div>
+
+    </div>
+</div>
+
+<!---javascript for toggle menu--->
+<script>
+       var MenuItems = document.getElementById("MenuItems");
+       
+       MenuItems.style.maxHeight = "0px";
+
+       function menuToggle() {
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                        MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                        MenuItems.style.maxHeight = "0px";
+                }
+
+       }
+</script>
+
+</body>
+
+</html>
